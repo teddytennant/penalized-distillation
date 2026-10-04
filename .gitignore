@@ -1,0 +1,6 @@
+paper.pdf
+_paper_extract.txt
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/

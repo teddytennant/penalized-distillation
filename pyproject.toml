@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "penalized-distillation"
+version = "0.1.0"
+description = "Sparse regression distilled from a single robust fit (arXiv:2609.23937)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["jax", "numpy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
